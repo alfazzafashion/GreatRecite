@@ -1,5 +1,5 @@
 # These are supported funding model platforms
 
 github: [GreatTimeBand]
+custom: ['GreatTimeBand']
 tidelift: npm/babel
-custom: ['GreatTimeBand/GreatTimeBand.github.io']
