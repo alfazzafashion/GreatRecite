@@ -1,5 +1,4 @@
 # These are supported funding model platforms
 
 github: ['GreatTimeBand']
-custom: ['GreatTimeBand/GreatTimeBand.github.io']
-dependabot: ['dependabot']
+custom: ['dependabot','GreatTimeBand/GreatTimeBand.github.io']
