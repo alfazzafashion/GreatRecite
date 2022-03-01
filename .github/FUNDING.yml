@@ -2,6 +2,4 @@
 
 github: [GreatTimeBand]
 tidelift: npm/babel
-community_bridge: cloud-foundry
-lfx_crowdfunding: cloud-foundry
 custom: ['GreatTimeBand/GreatTimeBand.github.io']
