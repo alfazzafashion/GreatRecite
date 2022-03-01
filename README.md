@@ -1,2 +1,2 @@
 # GreatTimeBand.github.io
-## [Source](http://greattimeband/GreatTimeBand.github.io)
+## [Source](http:GreatTimeBand.github.io)
