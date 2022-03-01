@@ -1,0 +1,215 @@
+/**{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}*/
+
+/*body{
+	font-family:arial;
+	font-size:13px;
+	line-height:1.5em;
+	color:#fff;
+	background: url(../images/bg.png);*/
+}
+
+.clearfix{
+	clear:both;
+}
+
+#containeraudio{
+	width:300px;
+	min-height:55px;
+	max-height:85px;
+	background:#eee;
+	overflow:hidden;
+	margin:auto;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	/*border:#666 solid 2px;*/
+	
+}
+
+#audio-image{
+	position:relative;
+	float: left;
+	overflow:hidden;
+	height:55px;
+	width: 55px;
+	margin-bottom:15px;
+}
+
+#audio-info{
+	text-align:center;
+	font-family:arial;
+	font-size:13px;
+	line-height:1.5em;
+	color:#333;
+}
+
+/*#audio-info .artist{
+	font-weight:bold;
+}*/
+
+.cover{
+	width:100%;
+	z-index:1;
+}
+
+input#volume {
+	position:relative;
+	width:200px;
+	float:right;
+	margin-left:auto;
+	margin-right:20px;
+	margin-top:2px;
+    -webkit-appearance: none !important;
+    background:#ccc;
+    height:1px;
+	margin-bottom:1px;
+	outline:none;
+	z-index:11;
+}
+input#volume::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:url(../images/knob.png) no-repeat;
+    height:12px;
+    width:12px;
+}
+
+#buttons{
+	width:200px;
+	float: right;
+	display: block;
+    /*margin: 15px auto;*/
+	margin-left:auto;
+	margin-right:20px;
+	margin-bottom:5px;
+	overflow:auto;
+}
+
+
+button#play{
+	width:32px;
+	height:32px;
+	margin-left:18px;
+	background:url(../images/play32.png) no-repeat;
+	float:left;
+}
+
+button#playTrendy{
+	width:50px;
+	height:50px;
+	margin-left:0px;
+	background:url(../images/playTrendy.png) no-repeat;
+	float:left;
+}
+
+button#pause{
+	width:32px;
+	height:32px;
+	margin-left:18px;
+	background:url(../images/pause32.png) no-repeat;
+	float:left;
+}
+
+button#pauseTrendy{
+	width:50px;
+	height:50px;
+	margin-left:0px;
+	background:url(../images/stopTrendy.png) no-repeat;
+	float:left;
+}
+
+button#stop{
+	width:32px;
+	height:32px;
+	margin-left:18px;
+	background:url(../images/stop32.png) no-repeat;
+	float:left;
+}
+
+button#prev{
+	width:32px;
+	height:25px;
+	background:url(../images/prev32.png) no-repeat;
+	float:left;
+	margin-top:7px;
+}
+
+button#next{
+	width:32px;
+	height:25px;
+	margin-left:18px;
+	background:url(../images/next32.png) no-repeat;
+	float:left;
+	margin-top:7px;
+}
+
+/*
+button#play:hover,
+button#pause:hover,
+button#stop:hover,
+button#prev:hover,
+button#next:hover {
+    border: 2px solid #cc0033;
+    background-color: #F00;
+}
+*/
+
+#playlist {
+	visibility:hidden;
+    list-style-type: none;
+	padding:10px;
+}
+
+#playlist li {
+    cursor: pointer;
+    margin:5px;
+}
+
+#tracker{
+	position:relative;
+	width:100%;
+}
+
+#playlist li.active {
+    font-weight: bold;
+	padding:3px;
+	background:#666;
+}
+
+#progressBar { 
+   width:70%;
+   margin-left:2%;
+   margin-right:28%;
+   /*margin-bottom:20px;*/
+   margin-top:0px;
+   height:10px;
+   background:url(../images/progress_bg.png) no-repeat;
+   float:left;
+}
+
+#progress {
+   background:url(../images/progress.png) no-repeat;
+   height:10px;
+   margin-bottom:5px;
+   display:inline-block;
+}
+
+#duration{
+	position:absolute;
+	top:10px;
+	right:10px;
+	padding:1px 4px;
+	background:rgb(238,238,238);
+	border-radius:5px;
+	text-align:center;
+	font-family:arial;
+	font-size:13px;
+	line-height:1.5em;
+	color:#333;
+	z-index:0;
+}
+
