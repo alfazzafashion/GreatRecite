@@ -1,2 +1,1 @@
-# GreatTimeBand.github.io
-## [Homepage](http:GreatTimeBand.github.io)
+## [Homepage](https://alfazzafashion.github.io/GreatRecite)
