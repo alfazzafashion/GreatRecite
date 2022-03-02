@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html data-wf-domain="great-time-epk.webflow.io" data-wf-page="5a5424dc7f90b9000159ce23" data-wf-site="5a5424dc7f90b9000159ce1e"
-data-wf-status="1">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113069029-1"></script>
