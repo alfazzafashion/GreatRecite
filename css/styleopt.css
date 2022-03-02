@@ -2572,13 +2572,3 @@ margin-right:10px;
 height:100%;
 float:right
 }
-
-.clearfix {
-  overflow: auto;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
